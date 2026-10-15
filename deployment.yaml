@@ -21,11 +21,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
- name: html-demo-service
+ name: event-management-service
 spec:
  type: NodePort
  selector:
- app: html-demo
+ app: event-management
  ports:
  - port: 80
  targetPort: 80
