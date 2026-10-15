@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Event Management Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f6f9; }
+        header { background-color: #1e3a8a; color: white; padding: 1rem; text-align: center; }
+        nav { display: flex; justify-content: center; background: #3b82f6; }
+        nav a { color: white; padding: 14px 20px; text-decoration: none; text-align: center; }
+        nav a:hover { background-color: #1d4ed8; }
+        .container { padding: 2rem; max-width: 1200px; margin: auto; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .btn { display: inline-block; background: #10b981; color: white; padding: 0.5rem 1rem; text-decoration: none; border-radius: 4px; margin-top: 1rem; }
+        .btn:hover { background: #059669; }
+        footer { text-align: center; padding: 1rem; background: #1e3a8a; color: white; position: relative; bottom: 0; width: 100%; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CampusConnect - Event Management Portal</h1>
+    <p>Version 1.0.0 (Stable)</p>
+</header>
+
+<nav>
+    <a href="#events">Upcoming Events</a>
+    <a href="#register">Register</a>
+    <a href="#placement">Placements</a>
+</nav>
+
+<div class="container">
+    <section id="events">
+        <h2>Upcoming Technical & Cultural Events</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>HackFest 2026</h3>
+                <p><strong>Type:</strong> Hackathon</p>
+                <p>Join us for a 36-hour grueling hackathon session to solve real-world industry challenges.</p>
+                <span class="btn">Register Now</span>
+            </div>
+            <div class="card">
+                <h3>ElectroVirtuoso</h3>
+                <p><strong>Type:</strong> Technical Symposium</p>
+                <p>Present papers, participate in line-following robotics, and circuit debugging contests.</p>
+                <span class="btn">Register Now</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="placement" style="margin-top: 3rem;">
+        <h2>Placement Opportunities & Partners</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>TechCorp Solutions</h3>
+                <p><strong>Role:</strong> Associate Software Engineer</p>
+                <p>Status: Active Recruiting</p>
+            </div>
+            <!-- Step 9: Add a new company or job opportunity here during testing -->
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 College Event Management Cell. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
